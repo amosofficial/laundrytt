@@ -1,0 +1,122 @@
+#toph{
+      height: 140px;  
+      width: auto;
+      background-color: darkslategray;
+      text-align: center;
+      padding-top: 10%;
+      background-image: url('https://cdn.standardmedia.co.ke/images/articles/thumbnails/tduXlaAs0A41TJAwr0a0qDN6nLmdfO7PkUjfN4UY.jpg');
+}
+.downh{
+    height: 600px;
+    width: auto;
+    background-color: whitesmoke;
+}
+#fut{
+    height: 70px;
+    width: auto;
+    text-align: center;
+    background-color: #333;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: orange;
+}
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .container {
+    
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+        }
+        
+        .box {
+            flex: 1;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 0 10px;
+        }
+        
+        .box img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        
+        .box p {
+            margin-top: 10px;
+        }
+        
+        .submit-btn {
+            padding: 10px 20px;
+            background-color: orange;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .submit-btn:hover {
+            background-color: wheat;
+        }
+        #boxin{
+            height: auto;
+            width: 30%;
+        }
+        @media only screen and (max-width: 600px) {
+
+            #toph{
+      height: 140px;  
+      width: 400px;
+    }
+    .box {
+        height: 200px;
+            flex: 1;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 0 10px;
+        }
+        
+
+
+
+
+        }
+
+    
+    

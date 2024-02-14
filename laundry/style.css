@@ -1,0 +1,14 @@
+#sec{
+    height: 400px; 
+    width: 500px;
+    background-color: grey;
+    
+    padding-right: 20%;
+    padding-top: 10px;
+    padding-left: 10%;
+    align-content: center;
+ }
+ img{
+ width: 400px;
+ height: 200px;
+ }
